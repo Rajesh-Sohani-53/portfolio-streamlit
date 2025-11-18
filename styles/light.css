@@ -1,0 +1,18 @@
+<style>
+body { background:white; color:black; }
+.stApp { background:white; color:black; }
+
+.project-card {
+    padding:12px;
+    border-radius:10px;
+    background:#f7f7f7;
+}
+
+/* Same hero styling but dark colors switched */
+.hero-title { font-size: 3.5rem; font-weight: 900; color: black; }
+.hero-title span {
+    background: linear-gradient(90deg,#4FACFE,#00F2FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+</style>

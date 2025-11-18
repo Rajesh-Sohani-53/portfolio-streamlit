@@ -1,0 +1,65 @@
+<style>
+body { background:#0f0f0f; color:white; }
+.stApp { background:#0f0f0f; color:white; }
+
+.project-card {
+    padding:12px;
+    border-radius:10px;
+    background:rgba(255,255,255,0.03);
+}
+
+/* HERO SECTION */
+.hero {
+    margin-top: 40px;
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.hero-title span {
+    background: linear-gradient(90deg,#4FACFE,#00F2FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-sub {
+    margin-top: -10px;
+    color: #B5FFE9;
+    font-size: 1.2rem;
+}
+
+.hero-desc {
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 1.1rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-anim {
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background: radial-gradient(circle, #00F2FE, #4FACFE);
+    filter: blur(40px);
+    animation: pulse 2s infinite alternate;
+}
+
+/* animations */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes pulse {
+    from {opacity: 0.4; transform: scale(0.9);}
+    to {opacity: 1; transform: scale(1.1);}
+}
+</style>
